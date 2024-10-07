@@ -2,7 +2,7 @@ import os
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms
 from cryptography.hazmat.backends import default_backend
 
-#  duyệt các file và add vào 1 list gồm các file cần mã hóa
+#  duyệt file và add vào 1 list gồm các file cần mã hóa
 files = []
 
 # nếu các file muốn mã hóa là hợp lệ thì thêm vào list
